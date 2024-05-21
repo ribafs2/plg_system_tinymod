@@ -20,6 +20,14 @@ The only option is an editor field where you can paste a JSON document with Tiny
 
 **IMPORTANT!** At the time of this writing, TinyMCE has published version 6 of their editor but Joomla 4 is only using TinyMCE 5. Please remember to select “TinyMCE v5” in the drop-down of the TinyMCE documentation to view the information which is relevant to the TinyMCE version Joomla is using.
 
+Add do json
+```json
+{
+"sandbox_iframes": false
+}
+```
+Works for me. Display Youtube videos. https://github.com/joomla/joomla-cms/issues/43407
+
 ## Example
 
 You can override the styles which are available under Format, Formats in the TinyMCE menu and in the style drop-down in the editor's toolbar. Let's say you want to remove the heading levels 1 and 2.
